@@ -48,7 +48,7 @@ export default function Carousel() {
                     {/* Centered title */}
                     <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
                         <span className="bg-black bg-opacity-60 text-white text-3xl md:text-5xl font-bold px-4 py-2 rounded">
-                            Comissão de Festas S.Sebastião &apos05
+                            Comissão de Festas S.Sebastião &apos;05
                         </span>
                     </div>
                 </div>
