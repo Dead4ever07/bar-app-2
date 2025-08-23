@@ -57,7 +57,7 @@ const TeamCard = ({ imageSrc, name }: TeamCardProps) => {
             </div>
             <div className="absolute bottom-5 left-0 w-full text-center">
               <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-4 dark:bg-dark-2">
-                <h3 className="text-lg font-semibold text-dark dark:text-white">
+                <h3 className="text-lg font-semibold text-dark ">
                   {name}
                 </h3>
                 <div>
