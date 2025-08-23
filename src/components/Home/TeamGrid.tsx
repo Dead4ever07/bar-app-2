@@ -20,8 +20,9 @@ const Team = () => {
         </div>
         <div className="-mx-4 flex flex-wrap justify-center">
 
-          {members.map((member: Member) => (
+          {members.map((member: Member, index) => (
             <TeamCard
+              key={member.name || index}
               name={member.name}
               imageSrc={member.photo}
             />
